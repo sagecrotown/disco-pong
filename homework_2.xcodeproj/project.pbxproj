@@ -32,7 +32,7 @@
 		08EBC5DA2CA499AC00D545CE /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
 		08EBC5DB2CA499AC00D545CE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		08EBC5DC2CA499AC00D545CE /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
-		08EBC5F82CA49E9A00D545CE /* homework_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EBC5F82CA49E9A00D545CE /* homework_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework_2; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -41,12 +41,12 @@
 			membershipExceptions = (
 				glm/detail/glm.cpp,
 			);
-			target = 08EBC2B32CA4902F00D545CE /* homework_1 */;
+			target = 08EBC2B32CA4902F00D545CE /* homework_2 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		08EBC2B62CA4902F00D545CE /* homework_1 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (08EBC5F52CA49BF700D545CE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (shaders, ); path = homework_1; sourceTree = "<group>"; };
+		08EBC2B62CA4902F00D545CE /* homework_2 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (08EBC5F52CA49BF700D545CE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (shaders, ); path = homework_2; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +68,9 @@
 		08EBC2AB2CA4902F00D545CE = {
 			isa = PBXGroup;
 			children = (
-				08EBC2B62CA4902F00D545CE /* homework_1 */,
+				08EBC2B62CA4902F00D545CE /* homework_2 */,
 				08EBC5D52CA4998B00D545CE /* Frameworks */,
-				08EBC5F82CA49E9A00D545CE /* homework_1 */,
+				08EBC5F82CA49E9A00D545CE /* homework_2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08EBC2B32CA4902F00D545CE /* homework_1 */ = {
+		08EBC2B32CA4902F00D545CE /* homework_2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08EBC2BB2CA4902F00D545CE /* Build configuration list for PBXNativeTarget "homework_1" */;
+			buildConfigurationList = 08EBC2BB2CA4902F00D545CE /* Build configuration list for PBXNativeTarget "homework_2" */;
 			buildPhases = (
 				08EBC5F42CA49BF700D545CE /* Sources */,
 				08EBC2B12CA4902F00D545CE /* Frameworks */,
@@ -102,13 +102,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				08EBC2B62CA4902F00D545CE /* homework_1 */,
+				08EBC2B62CA4902F00D545CE /* homework_2 */,
 			);
-			name = homework_1;
+			name = homework_2;
 			packageProductDependencies = (
 			);
 			productName = homework_1;
-			productReference = 08EBC5F82CA49E9A00D545CE /* homework_1 */;
+			productReference = 08EBC5F82CA49E9A00D545CE /* homework_2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08EBC2AF2CA4902F00D545CE /* Build configuration list for PBXProject "homework_1" */;
+			buildConfigurationList = 08EBC2AF2CA4902F00D545CE /* Build configuration list for PBXProject "homework_2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08EBC2B32CA4902F00D545CE /* homework_1 */,
+				08EBC2B32CA4902F00D545CE /* homework_2 */,
 			);
 		};
 /* End PBXProject section */
@@ -276,9 +276,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/homework_1",
+					"$(PROJECT_DIR)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-					/Library/Frameworks,
 				);
 				HEADER_SEARCH_PATHS = (
 					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
@@ -295,9 +294,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/homework_1",
+					"$(PROJECT_DIR)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
-					/Library/Frameworks,
 				);
 				HEADER_SEARCH_PATHS = (
 					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
@@ -311,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08EBC2AF2CA4902F00D545CE /* Build configuration list for PBXProject "homework_1" */ = {
+		08EBC2AF2CA4902F00D545CE /* Build configuration list for PBXProject "homework_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08EBC2B92CA4902F00D545CE /* Debug */,
@@ -320,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08EBC2BB2CA4902F00D545CE /* Build configuration list for PBXNativeTarget "homework_1" */ = {
+		08EBC2BB2CA4902F00D545CE /* Build configuration list for PBXNativeTarget "homework_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08EBC2BC2CA4902F00D545CE /* Debug */,

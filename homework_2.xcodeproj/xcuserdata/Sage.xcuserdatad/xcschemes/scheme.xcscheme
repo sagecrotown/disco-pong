@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08EBC2B32CA4902F00D545CE"
-               BuildableName = "homework_1"
-               BlueprintName = "homework_1"
-               ReferencedContainer = "container:homework_1.xcodeproj">
+               BuildableName = "homework_2"
+               BlueprintName = "homework_2"
+               ReferencedContainer = "container:homework_2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,11 +47,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08EBC2B32CA4902F00D545CE"
-            BuildableName = "homework_1"
-            BlueprintName = "homework_1"
-            ReferencedContainer = "container:homework_1.xcodeproj">
+            BuildableName = "homework_2"
+            BlueprintName = "homework_2"
+            ReferencedContainer = "container:homework_2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "CG_CONTEXT_SHOW_BACKTRACE"
+            value = "1"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08EBC2B32CA4902F00D545CE"
-            BuildableName = "homework_1"
-            BlueprintName = "homework_1"
-            ReferencedContainer = "container:homework_1.xcodeproj">
+            BuildableName = "homework_2"
+            BlueprintName = "homework_2"
+            ReferencedContainer = "container:homework_2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

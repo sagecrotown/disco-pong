@@ -4,14 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>homework_1.xcscheme_^#shared#^_</key>
+		<key>homework_1 copy.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>scheme.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>086C554C2CB9B3E000B0AD8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>08EBC2B32CA4902F00D545CE</key>
 		<dict>
 			<key>primary</key>
