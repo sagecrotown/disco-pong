@@ -110,6 +110,7 @@ float g_previous_ticks = 0.0f;
 Uint32 timeout = SDL_GetTicks();
 
 bool single_player = false;
+bool game_over = false;
 
 void initialize();
 void process_input();
@@ -559,14 +560,16 @@ void update()
     }
     
     // see if anyone's lost since we last checked
-    if (g_game_state.left_wall->get_loser()) {
+    if (g_game_state.left_wall->get_loser() && !game_over) {
         g_game_state.message->set_animation_state(SPRITE3);
         g_game_state.message->set_visibility(true);
+        game_over = true;
     }
     
-    if (g_game_state.right_wall->get_loser()) {
+    if (g_game_state.right_wall->get_loser() && !game_over) {
         g_game_state.message->set_animation_state(SPRITE2);
         g_game_state.message->set_visibility(true);
+        game_over = true;
     }
         
     g_game_state.scene->update(delta_time);
