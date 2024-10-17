@@ -1,3 +1,3 @@
-# game-programming-HW1
+# Disco Pong
 
-First homework for intro to game programming
+Pong clone (but make it disco)
