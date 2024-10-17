@@ -189,22 +189,22 @@ void initialize()
     // ————— GENERATE OBJECTS ————— //
     
     std::vector<GLuint> message_textures_ids = {
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/start_screen.png", LINEAR),
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/left_win.png", LINEAR),
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/right_win.png", LINEAR)
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/start_screen.png", LINEAR),
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/left_win.png", LINEAR),
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/right_win.png", LINEAR)
     };
     
     std::vector<GLuint> scene_textures_ids = {
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/disco_floor_1.png", LINEAR),
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/disco_floor_2.png", LINEAR)
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/disco_floor_1.png", LINEAR),
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/disco_floor_2.png", LINEAR)
     };
     
     std::vector<GLuint> box_textures_ids = {
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/box.png", NEAREST)
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/box.png", NEAREST)
     };
     
     std::vector<GLuint> ball_textures_ids = {
-        load_texture("/Users/Sage/Downloads/Game Programming/homework_2/homework_2/assets/ball.png", NEAREST)
+        load_texture("/Users/Sage/Downloads/Game Programming/disco_pong/homework_2/assets/ball.png", NEAREST)
     };
     
     
